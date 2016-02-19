@@ -1,11 +1,4 @@
-class Manusia(object):
-    def __init__(self, nama, alamat, umur):
-        self.nama =  nama
-        self.alamat = alamat
-        self.umur = umur
-
-    def getInfo(self):
-        print("Nama : ",self.nama,"\nAlamat : ",self.alamat,"\nUmur : ",self.umur)
+from Manusia import Manusia
 
 class Mahasiswa(Manusia):
     def __init__(self, nama, alamat, umur, universitas):

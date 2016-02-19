@@ -7,3 +7,5 @@ class Manusia(object):
     def getInfo(self):
         print("Nama : ",self.nama,"\nAlamat : ",self.alamat,"\nUmur : ",self.umur)
 
+manusia1 = Manusia('Rizal','Jalan Bangbayang',20)
+manusia1.getInfo()
