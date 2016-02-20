@@ -12,11 +12,12 @@
 #
 # The original idea of this is borrowed from <mort.yao@gmail.com>'s brilliant work
 #    https://github.com/soimort/google-translate-cli
-# ----import json
-from textwrap import wrap
-import urllib2 as request
-from urllib import quote
+#
 
+import json
+from textwrap import wrap
+from urllib import request
+from urllib.parse import quote
 
 def getTranslate(text, fromLang, toLang):
     escaped_source = quote(text, '')
