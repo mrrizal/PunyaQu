@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# LICENSE AND ORIGINAL IDEA
+# thx for Terry Yin : https://github.com/terryyin/google-translate-python
 # ----------------------------------------------------------------------------
 # "THE BEER-WARE LICENSE" (Revision 42):
 # <terry.yinzhe@gmail.com> wrote this file. As long as you retain this notice you
